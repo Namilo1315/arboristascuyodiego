@@ -979,15 +979,15 @@
                 #inicio{
                     background: url("./imagenes/arbol3.jpg");
                     background-size: cover;
-                     margin-top: 15px;
+                     margin-top: 5px;
                     background-position:center;
                     height:75vh;
                 }
              
-                #inicio .contenido .presentacion .ayuda1 h3 {
+                #inicio .contenido .presentacion {
                     font-size: 20px;
                   
-                    #inicio .contenido .presentacion .ayuda1 h3 {
+                    #inicio .contenido .presentacion  {
                         font-size: 25px;
                         margin-bottom: 125px;
                         text-align: center;
