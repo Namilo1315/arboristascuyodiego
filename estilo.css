@@ -569,13 +569,14 @@
             
             padding: 0px 0px;
             display: flex;
-            transition: transform 0.2s ease-in-out;
+            transition: transform 0.3s ease-in-out;
         }
         
         .carousel img {
             width: 150px; /* Ajusta el tamaño según tus necesidades */
-            margin: 0 8px; /* Espacio entre las imágenes */
+            margin: 0 12px; /* Espacio entre las imágenes */
             opacity: 1.5;
+            height: 200px;
         }
       
     
