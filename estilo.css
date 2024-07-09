@@ -9,9 +9,24 @@
         }
         .color{
           color: rgb(255, 255, 255);
-          background-color: rgba(0, 128, 0, 0.178);
-          font-size: 60px;
-          margin-top: 70px;
+          background-color: #055605ad;
+          font-size: 58px;
+          margin-top: 80px;
+          margin-bottom: 40px;
+          padding: 5px 5px;
+        }
+        
+        .boton{
+            padding: 15px 15px;
+            background: #055605;
+            color: white;
+            font-size: 19px;
+        }
+        .boton:hover{
+            padding: 15px 15px;
+            background: green;
+            color: white;
+            font-size: 20px;
         }
         .cartas :hover{
             background-color:#e7e7e7
@@ -23,11 +38,12 @@
             border-radius: 15%;
           
         }
+    
         .gracias{
             display: none;
         }
         .logoamarillo{
-          margin-left: 130px; 
+          margin-left: 100px; 
         }
         .logotran{
             margin-top: 50px;
@@ -50,27 +66,13 @@
         /* *********************/
         .hambuerguesa{
             color: green;
-            width: 30px;
+            width: 20px;
             
         }
         
         /*linear-gradient( rgba(40, 3, 251, 0.441),rgba(37, 0, 245, 0.391)),*/
-     
-        .redes1 {
-            color: #000000;
-            
-        }
-        .redes1 :hover {
-            color:#1c3692;
-         }
+    
 
-       
-        .titulos{
-            font-size: 24px;
-            font-weight: 800;
-            
-            
-        }
        .inicio{
         color:#1c3692;
         font-weight:bold;
@@ -79,7 +81,7 @@
         margin-right: 160px;
        
          }
-         .inicio1{
+        .inicio1{
            margin-left: 160px;
         }
         .inicio2{
@@ -94,8 +96,6 @@
              margin-top: 15px;
             background-position:center;
             height:100vh;
-            
-
         }   
          
         #inicio .contenido header {
@@ -127,31 +127,27 @@
             text-decoration: none;
             color: rgb(0, 0, 0);
             margin: 0 12px;
+            
             font-weight: 700;
             transition: .5s;
             font-size: 18px;
-
         }
         
         #inicio .contenido header .contenido-header nav ul li a:hover {
-            color:#1c3692;
+            color:green;
             font-weight: 900;
-        
             
         }
         
         #inicio .contenido header .contenido-header .redes a {
             text-decoration: none;
-            font-size: 20px;
-            color:green;
+            font-size: 21px;
+            color:#055605;
             display: inline-block;
-            margin-left: 10px;
+            margin-left: 1px;
             transition: .5s;
             font-weight: 500;
-            padding: 1px;
-           
-            
-            
+            padding: 1px;  
         }
         
         #inicio .contenido header .contenido-header .redes a:hover {
@@ -167,61 +163,29 @@
         #inicio .contenido .presentacion {
             height: 75vh;
             margin: auto;
-           
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-    
         }
        
-        
-        #inicio .contenido .presentacion .ayuda1 h3 {
-            display: none;
-            font-size: 40px;
-            margin-bottom: 105px;
-            text-align: center;
-            color:#ffffff;
-             font-weight: 900;
-            padding: 20px;
-            background-color:#1c3692d7;
-        }
-        
-        
-        
-        #inicio .contenido .presentacion .descripcion {
-            max-width: 70px;
-            margin: 25px auto;
-            font-size: 18px;
-            text-align: center;
-        }
-        
-        
-        
-      
-        
-        #icono-nav {
-            color: #fff;
-            display: none;
-        }
-
+    
 
         
         #icono-nav {
             color: #fff;
             display: none;
         }
-
-
-
+        #icono-nav {
+            color: #fff;
+            display: none;
+        }
         #inicior{
             background: none;
             background-size: none;
             
             background-position:center;
             height:13vh;
-
-      
         } 
         #inicior .contenido header {
             background-color: rgb(255, 255, 255);
@@ -239,8 +203,6 @@
             align-items: center;
             padding: 6px 20px;
         }
-        
-        
         #inicior .contenido header .contenido-header nav ul {
             list-style: none;
             display: flex;
@@ -260,35 +222,17 @@
         #inicior .contenido header .contenido-header nav ul li a:hover {
             color:#1c3692;
             font-weight: 800;
-            transform: scale(1.9, 1.9);
-            
+            transform: scale(1.9, 1.9);  
         }
         
-        #inicior .contenido header .contenido-header .redes a {
-            text-decoration: none;
-            color:#000000;
-            display: inline-block;
-            margin-left: 10px;
-            transition: .5s;
-            font-weight: 1000;
-            
-        }
-        
-        #inicior .contenido header .contenido-header .redes a:hover {
-            color:#1c3692;
-            font-weight: 600;
-            transform: scale(1.6, 1.6);
-        }
+       
           
 
         /* *********************/
         /* seccion NOSOTROS */
         /* *********************/        
 
-        .problema {
-
-            color:#ffc107;
-        }
+      
         .problema :hover {
             transform: scale(1.2, 1.2);
             
@@ -355,10 +299,6 @@
            
         }
         
-        #nosotros .sobremi a:hover {
-            background-color:#ffc107;
-            color: #050505;
-        }
 
         #whatsapp-button {
             position: fixed;
@@ -372,7 +312,7 @@
          
         }
         .foto-nosotros:hover{
-            opacity: 1.9; 
+            opacity: 2.0; 
            
         }
 
@@ -387,39 +327,13 @@
         }
         
         #whatsapp-button a img:hover {
-            background-color:#1c9245;/* Cambia el color al pasar el mouse */
+            background-color:#055605;/* Cambia el color al pasar el mouse */
             opacity: 1;
             
         }
         
 
-        .contador-obras {
-            background: linear-gradient(#1c3692, #0000008a,#ef0d0d7b,#0000008a, #1c3692), url("./imagenes/arborista2.jpg");
-            background-size: cover;
-            background-position:center;
-            height:35vh;
-            width: 90%;
-            align-items: center;
-            justify-content: center;
-    
-        }
-        .counting{
-            
-            
-            align-items: center;
-            justify-content: center;
-    
-        }
-                    
-        
-        .counting .count{
-            font-size: 45px;
-            color: rgb(255, 255, 255);
-            font-weight: 800;
-            
-        }
-
-
+       
 
        
         /* seccion S K I L L S */
@@ -558,7 +472,14 @@
         
 
     
-        
+        #contacto  {
+            padding: 70px 15px;
+            text-align: center;
+            background-color: #ffffff;
+            margin: auto;
+            margin-top: -80px;
+            
+             }
             
     #contacto .contenedor-form .fila {
     margin-bottom: 15px;
@@ -568,16 +489,13 @@
     #contacto .contenedor-form textarea {
     padding: 10px;
     border: 0.5px solid #0000008a;
-    
+
     }
-    
-    
+  
     #contacto .contenedor-form .input-full {
     width: 100%;
     }
-    
 
-    
     #contacto .contenedor-form {
     max-width: 85%;
     margin: auto;
@@ -594,7 +512,10 @@
     
     }
     
-   
+    .final {
+        text-align: start;
+       
+    }
     #contacto .contenedor-form .input-full {
     width: 100%;
     }
@@ -619,13 +540,13 @@
     color: #ffffff;
     }
     #contacto .btn-enviar:hover{
-    background-color: green;
+    background-color:#055605;
     color:#000000;  
     font-weight: 700;
     }   
     #contacto .titulo-formulario {
     font-size: 22px;
-    color: #242424;
+    color: #000000;
     font-weight: 700;
      
      
@@ -638,44 +559,6 @@
 
     }
  
-     /*seccion distribuidores */
-
-      
-        #distribuidores {
-             
-            text-align: center;
-            background-color: #ffffff;
-            
-        }
-        
-        
-        #distribuidores .titulo-seccion {
-            font-size: 28px;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: #1c3692;
-            text-decoration: underline;
-            text-decoration-color:#c1c1c1;
-            text-decoration-thickness: 5px;
-        }   
-        
-        #nosotros1 .sobremi1 {
-            padding: 40 15px;
-            
-        }
-        #nosotros1 .sobremi1 p {
-            font-size: 14px;
-            line-height: 25px;
-           margin-bottom: 80px;
-           padding-left: 100px;
-        }
-        .doslogos{
-            margin-bottom: 40px;
-        }
-        .subrayado{
-            text-decoration: underline;
-            color: #1c3692;
-        }
         .carousel-container {
             
             overflow: hidden;
@@ -690,9 +573,12 @@
         }
         
         .carousel img {
-            width: 200px; /* Ajusta el tamaño según tus necesidades */
-            margin: 0 10px; /* Espacio entre las imágenes */
+            width: 150px; /* Ajusta el tamaño según tus necesidades */
+            margin: 0 8px; /* Espacio entre las imágenes */
+            opacity: 1.5;
         }
+      
+    
     
         /*#fondo{
             
@@ -866,9 +752,10 @@
             margin-bottom: 1px;
         }
      
-            .logo{
-                width: 80px;
-                margin-left: 15px;
+            .logotran{
+                width: 180px;
+                margin-bottom: 30px;
+            
             }
             .linea{
                 display: none;
@@ -989,20 +876,18 @@
                 /* seccion CONTACTO */
                 #contacto {
                     padding: 50px 0px;
-                    margin-top: -80px;
+                    margin-top: -50px;
                 }
-                #contacto .contenedor-form .mitad {
-                    margin-bottom: 15px;
-                    display: block;
-                }
+              
                 #contacto .contenedor-form .mitad input {
                     width: 100%;
                     margin-bottom: 15px;
                 }
+                #contacto .contenedor-form {
+                    max-width: 98%;
+                    margin: auto;
+                    }
 
-
-                
-           
             
                      /* seccion MIS SERVICIOS */
             #servicios {
@@ -1023,24 +908,8 @@
                 padding:  0px;
                 
             }
-            #contacto1 .titulo-seccion {
-                font-size: 28px;
-                font-weight: 800;
-                text-transform: uppercase;
-                color: green;
-                text-decoration: underline;
-                text-decoration-color:#c1c1c1;
-                text-decoration-thickness: 5px;
-            }
-             #contacto1 .titulo-formulario {
-                font-size: 20px;
-                font-weight: 800;
-            ;
-              
-                text-decoration-thickness: 5px;
-            }
-            
-            
+          
+        
           
             .carousel img {
                 width: 150px; /* Ajusta el tamaño para pantallas más pequeñas */
@@ -1075,11 +944,9 @@
                 text-align: center;
                 
             }
-            .footer1{
-                margin-top: 0px;
-            }
+           
             .logoamarillo{
-                margin-bottom: 0px;
+                margin-top:5px;
                 margin-left: 0px; 
                 width: 105px;
             }
